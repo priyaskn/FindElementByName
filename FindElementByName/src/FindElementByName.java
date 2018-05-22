@@ -13,6 +13,7 @@ public class FindElementByName {
 		driver.findElement(By.name("q")).sendKeys("QTP");
 		driver.findElement(By.name("l")).sendKeys("Calcutta");
 		driver.findElement(By.id("fj")).click();
+		driver.findElement(By.partialLinkText("Upload")).click();
 		
 	}
 }
